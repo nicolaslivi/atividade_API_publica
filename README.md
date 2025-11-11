@@ -1,2 +1,2 @@
-# Desenvolvimento-de-Sistemas
-Repositório direcionado às aulas de desenvolvimento de sistemas do técnico no SENAI.
+# Desenvolvimento de sistemas - API Pública
+Realização da atividade utilizando uma API pública de previsão do tempo. Construção de front-end e back-end do sistema.
