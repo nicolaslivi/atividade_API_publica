@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão do tempo</title>
+
+    <title>Dados do CEP</title>
 </head>
 <body>
-    
+    <h1>Digite seu cep abaixo: </h1>
+    <input type="text" placeholder="00000-000" id="cep">
+    <button onclick="buscarEndereco()">Enter</button>
+    <br>
+    <h3>Rua: </h3>
+    <input type="text" id="rua" placeholder="Rua...">
+    <h3>Bairro: </h3>
+    <input type="text" id="bairro" placeholder="Bairro...">
+    <h3>Cidade: </h3>
+    <input type="text" id="cidade" placeholder="Cidade...">
+    <h3>Estado: </h3>
+    <input type="text" id="estado" placeholder="Estado...">
+
+    <script src="/server.js"></script>
 </body> 
 </html>
